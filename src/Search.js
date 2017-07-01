@@ -44,7 +44,7 @@ class Search extends React.Component{
 			<View style={styles.viewStyle}>
 				<Header searchBar rounded>
                     <Item>
-                        <Icon name="ios-search" />
+                        <Icon name="ios-search" onPress={this.searchPoke}/>
                         <Input 
                         	value={this.state.pokeSearch}
                         	placeholder="Search Pokemon"
